@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-TheHolyOneZ%2FZForceClose-24292e?style=flat-square&logo=github)](https://github.com/TheHolyOneZ/ZForceClose)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)](LICENSE)
 
-When an app refuses to die, ZForceClose hands you a crosshair. Point. Press. The process is terminated instantly — `TerminateProcess` on Windows, `SIGKILL` on Linux. No dialogs. No grace period. No mercy.
+When an app refuses to die, press your hotkey to arm ZForceClose, move your cursor over the frozen window, and press again. The process is terminated instantly — `TerminateProcess` on Windows, `SIGKILL` on Linux. No dialogs. No grace period. No mercy.
 
 ## Download
 
@@ -42,9 +42,9 @@ When an app refuses to die, ZForceClose hands you a crosshair. Point. Press. The
 Requires Rust, Node 18+, and the [Tauri prerequisites](https://tauri.app/start/prerequisites/) for your platform.
 
 ```bash
-npm install
-npm run tauri dev      # development
-npm run tauri build    # release bundle
+pnpm install
+pnpm tauri dev      # development
+pnpm tauri build    # release bundle
 ```
 
 ## Platform notes
